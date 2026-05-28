@@ -1,0 +1,7 @@
+stages:
+  prepare:
+    cmd: python -m src.data_loader
+    deps:
+      - src/data_loader.py
+    outs:
+      - data
